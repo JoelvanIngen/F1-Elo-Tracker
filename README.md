@@ -3,3 +3,6 @@ In Formula One it is difficult to accurately compare skill between drivers, sinc
 A few years back I got the idea to rate drivers indirectly by comparing them against their teammate, and seeing how their teammate would score against other drivers when they were still driving for a different team.
 I wrote some code as a proof of concept and forgot about the project.
 This was until a while ago when I saw [this video by Mr V's Garage](https://www.youtube.com/watch?v=U16a8tdrbII) and got inspired to pick up the project again.
+
+## ELO Tracking
+To perform ELO estimations, we use [TrueSkill](https://github.com/sublee/trueskill) developed by [Microsoft](https://trueskill.org/) because it is simple to use and will do the job for now. We can always switch should the need arise.
